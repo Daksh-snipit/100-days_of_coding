@@ -7,10 +7,10 @@ int main() {
     printf("Enter Principal, Rate and Time: ");
     scanf("%f %f %f", &p, &r, &t);
 
-    // Simple Interest
+
     si = (p * r * t) / 100;
 
-    // Compound Interest
+
     amount = p;
 
     for (int i = 1; i <= t; i++) {
