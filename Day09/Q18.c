@@ -2,6 +2,7 @@
 int main()
 {
     int percentage;
+    printf("Enter the percentage");
     scanf("%d", &percentage);
     if (percentage >= 90 && percentage <= 100)
     {
